@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 
 export function replaceCamelCaseWithSpaces(colorName) {
-    
+  return colorName.replace(/\B([A-Z])\B/g, ' $1');
 }
 
 function App() {
