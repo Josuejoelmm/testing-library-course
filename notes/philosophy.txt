@@ -1,0 +1,19 @@
+What does React Testing Library Do?
+
+- Creates virtual DOM for testing
+  - and utilities for Interacting with DOM
+- Allows testing without a browser
+
+// Types of Tests
+
+- Unit tests
+  - Tests one unit of code in isolation
+
+- Integration tests
+  - How multiple units worktogether
+
+- Functional Tests
+  - Tests a particular function of software
+
+- Acceptance / End-to-end (E2E) Tests
+  - Use actual browser and server (Cypress, Selenium)

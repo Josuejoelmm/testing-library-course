@@ -1,0 +1,12 @@
+when you see an Error test like:
+
+// Warning: An update to Overlay inside a test was not wrapped in act(...).
+
+PLEASE DON'T follow these instructions.
+
+just determinate what part of your test are async and then use methods like:
+
+  - waitForElementToBeRemoved 
+  - waitFor
+
+source: https://kentcdodds.com/blog/fix-the-not-wrapped-in-act-warning

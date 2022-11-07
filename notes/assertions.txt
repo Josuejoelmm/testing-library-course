@@ -1,0 +1,25 @@
+Assertions:
+
+These assertions are what determine wheter the test passes or fails
+
+example:
+
+expect(linkElement).toBeInTheDocument();
+
+expect:
+  - comes from jest global, starts the assertion
+
+expect argument: subject of the assertion
+
+matcher: 
+  - type of assertion
+  - this matcher comes from jest-DOM
+
+matcher argument: refines matcher
+
+more examples:
+
+expect(element.textContent).toBe('Hola');
+
+expect(elementsArray).toHaveLength(7);
+
